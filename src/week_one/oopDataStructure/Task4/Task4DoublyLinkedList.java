@@ -1,4 +1,4 @@
-package weekOne.oopDataStructure.Task4;
+package week_one.oopDataStructure.Task4;
 
 public class Task4DoublyLinkedList {
     public static void main(String[] args) {

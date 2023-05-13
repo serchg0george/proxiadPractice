@@ -1,4 +1,4 @@
-package weekOne.oopDataStructure.Task4;
+package week_one.oopDataStructure.Task4;
 
 import java.util.ArrayList;
 import java.util.List;
