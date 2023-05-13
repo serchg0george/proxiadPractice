@@ -1,4 +1,4 @@
-package weekOne.oopDataStructure.Task1;
+package week_one.oopDataStructure.Task1;
 
 public class Task1 {
     public static void main(String[] args) {
