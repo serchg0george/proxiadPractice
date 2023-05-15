@@ -26,3 +26,9 @@ o
 Qsrc/week_one/functional_programming_lambdas/Task5/PricesWithVatUnaryOperator.java,f\0\f0ac5d838a7f91fe113bb5ffa9838ef9dda0fb95
 t
 Dsrc/week_one/functional_programming_lambdas/Task2/PricesWithVat.java,4\a\4aa52a3e5acf0cd5c3a4d044facd2025ad92ee69
+y
+Isrc/week_one/functional_programming_lambdas/Task1/SortingEvenNumbers.java,c\8\c8c8c4f8b333b94bf2fcdf23af6e1e55911b0453
+„
+Tsrc/week_one/functional_programming_lambdas/Task8Home/PricesWithVatStaticMethod.java,e\5\e53dd64f2590b32ce149829fd162b5f8dacfe6ed
+t
+Dsrc/week_one/functional_programming_lambdas/Task7Home/AgeFilter.java,d\a\da3751662f7d73b4d74beb528a8b9f65ae3f57ed
