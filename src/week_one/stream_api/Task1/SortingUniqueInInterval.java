@@ -13,7 +13,8 @@ public class SortingUniqueInInterval {
         String input = in.nextLine();
         List<String> nums = Arrays.asList(input.split(", "));
         Predicate<String> numBetweenInterval = s ->
-                Integer.parseInt(s.split(", ")[0]) > 10 && Integer.parseInt(s.split(", ")[0]) < 20;
+                Integer.parseInt(s.split(", ")[0]) > 10
+                        && Integer.parseInt(s.split(", ")[0]) < 20;
         Consumer<String> printNum = s -> System.out.println(s);
         nums.stream()
                 .filter(numBetweenInterval)

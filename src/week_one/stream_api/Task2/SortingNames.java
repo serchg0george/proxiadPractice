@@ -20,7 +20,7 @@ public class SortingNames {
                         .map(String::toLowerCase)
                         .anyMatch(element::contains))
                 .sorted()
-//                .limit(1)
+                .limit(1)
                 .forEach(System.out::println);
 
 
