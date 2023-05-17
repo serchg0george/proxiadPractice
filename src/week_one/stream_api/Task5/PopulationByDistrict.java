@@ -15,9 +15,15 @@ public class PopulationByDistrict {
                         pair[0], LinkedHashMap::new, Collectors.mapping(pair ->
                         Integer.parseInt(pair[1].replaceAll("\\D+", "")), Collectors.toList())));
 
+
         cityPopulationMap.entrySet().stream()
-                .filter(entry -> entry.getValue().stream()
-                        .anyMatch(population -> population > 10))
+                .filter(entry -> entry.getValue().stream().anyMatch(population -> population > 10))
+                .sorted((e1, e2) -> {
+                    int sum1 = e1.getValue().stream().mapToInt(Integer::intValue).sum();
+                    int sum2 = e2.getValue().stream().mapToInt(Integer::intValue).sum();
+                    return sum2 - sum1;
+                })
+                .limit(2)
                 .forEach(entry -> {
                     String city = entry.getKey();
                     List<Integer> populations = entry.getValue();

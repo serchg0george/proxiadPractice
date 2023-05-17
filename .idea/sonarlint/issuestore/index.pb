@@ -38,5 +38,3 @@ j
 :src/week_one/stream_api/Task1/SortingUniqueInInterval.java,1\e\1ea3cccd0dbaaccb3f9187a7194298edca43f62c
 _
 /src/week_one/stream_api/Task2/SortingNames.java,8\0\805679893e5d693f93fbe30be92ce756ebd0b471
-[
-+src/week_one/stream_api/Task4/TotalAge.java,c\e\ce66db3a502b85e3498c2297b61e78072c91810e
