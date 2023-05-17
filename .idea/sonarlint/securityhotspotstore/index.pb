@@ -32,8 +32,6 @@ t
 Dsrc/week_one/functional_programming_lambdas/Task7Home/AgeFilter.java,d\a\da3751662f7d73b4d74beb528a8b9f65ae3f57ed
 „
 Tsrc/week_one/functional_programming_lambdas/Task8Home/PricesWithVatStaticMethod.java,e\5\e53dd64f2590b32ce149829fd162b5f8dacfe6ed
-_
-/src/week_one/stream_api/Task2/SortingNames.java,8\0\805679893e5d693f93fbe30be92ce756ebd0b471
 b
 2src/week_one/stream_api/Task3/TheSmallestEven.java,7\9\79aa0485ebbded68f0ea6a05e9bcf0e8ccd7a72a
 j
