@@ -9,7 +9,6 @@ public class TotalAge {
 
     public static void main(String[] args) {
         new TotalAge().calculateTotalAge();
-
     }
 
     public void calculateTotalAge() {
