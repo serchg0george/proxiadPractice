@@ -30,3 +30,13 @@ y
 Isrc/week_one/functional_programming_lambdas/Task1/SortingEvenNumbers.java,c\8\c8c8c4f8b333b94bf2fcdf23af6e1e55911b0453
 t
 Dsrc/week_one/functional_programming_lambdas/Task7Home/AgeFilter.java,d\a\da3751662f7d73b4d74beb528a8b9f65ae3f57ed
+„
+Tsrc/week_one/functional_programming_lambdas/Task8Home/PricesWithVatStaticMethod.java,e\5\e53dd64f2590b32ce149829fd162b5f8dacfe6ed
+b
+2src/week_one/stream_api/Task3/TheSmallestEven.java,7\9\79aa0485ebbded68f0ea6a05e9bcf0e8ccd7a72a
+j
+:src/week_one/stream_api/Task1/SortingUniqueInInterval.java,1\e\1ea3cccd0dbaaccb3f9187a7194298edca43f62c
+_
+/src/week_one/stream_api/Task2/SortingNames.java,8\0\805679893e5d693f93fbe30be92ce756ebd0b471
+[
++src/week_one/stream_api/Task4/TotalAge.java,c\e\ce66db3a502b85e3498c2297b61e78072c91810e
