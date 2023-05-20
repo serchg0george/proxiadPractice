@@ -34,6 +34,5 @@ public class PopulationByDistrict {
                             .forEach(population -> System.out.print(population + " "));
                     System.out.println();
                 });
-
     }
 }
