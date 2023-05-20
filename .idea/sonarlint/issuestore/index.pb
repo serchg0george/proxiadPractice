@@ -8,12 +8,8 @@ z
 Jsrc/week_one/functional_programming_lambdas/Task6/CollectionOfNumbers.java,6\c\6c8e665606c328fbb88ad2ba8c1e09144e44c033
 „
 Tsrc/week_one/functional_programming_lambdas/Task4/CountOfWordsWithCapitalLetter.java,b\d\bd85060bc2af3582d2ffc67e77b834c228852d40
-o
-?src/week_one/oopDataStructure/Task4/CustomDoublyLinkedList.java,4\5\450b6a850dcd5e94aa5f7c91a3caed6c92e747a2
 k
 ;src/week_one/functional_programming_lambdas/Task3/Dice.java,f\5\f51d1263e560f6e4b49bf8513dc06dae8bf63753
-]
--src/week_one/oopDataStructure/Task4/Node.java,2\c\2c530acbb5a9e71fb271a369cc425d66abeabca7
 
 Qsrc/week_one/functional_programming_lambdas/Task5/PricesWithVatUnaryOperator.java,f\0\f0ac5d838a7f91fe113bb5ffa9838ef9dda0fb95
 ^
@@ -22,8 +18,6 @@ Qsrc/week_one/functional_programming_lambdas/Task5/PricesWithVatUnaryOperator.ja
 .src/week_one/oopDataStructure/Task2/Task2.java,a\7\a7be468fb0fa02f12012388af6ac3dec96e26c34
 ^
 .src/week_one/oopDataStructure/Task3/Task3.java,c\d\cd633eb4abb4bc0eae8165b1540c67b7b9cf0707
-n
->src/week_one/oopDataStructure/Task4/Task4DoublyLinkedList.java,c\4\c4812ab8eb49f06b08e645d1ff3086f6edf116a2
 t
 Dsrc/week_one/functional_programming_lambdas/Task2/PricesWithVat.java,4\a\4aa52a3e5acf0cd5c3a4d044facd2025ad92ee69
 y
@@ -32,7 +26,19 @@ t
 Dsrc/week_one/functional_programming_lambdas/Task7Home/AgeFilter.java,d\a\da3751662f7d73b4d74beb528a8b9f65ae3f57ed
 „
 Tsrc/week_one/functional_programming_lambdas/Task8Home/PricesWithVatStaticMethod.java,e\5\e53dd64f2590b32ce149829fd162b5f8dacfe6ed
-b
-2src/week_one/stream_api/Task3/TheSmallestEven.java,7\9\79aa0485ebbded68f0ea6a05e9bcf0e8ccd7a72a
 j
 :src/week_one/stream_api/Task1/SortingUniqueInInterval.java,1\e\1ea3cccd0dbaaccb3f9187a7194298edca43f62c
+_
+/src/week_one/stream_api/Task2/SortingNames.java,8\0\805679893e5d693f93fbe30be92ce756ebd0b471
+[
++src/week_one/stream_api/Task4/TotalAge.java,c\e\ce66db3a502b85e3498c2297b61e78072c91810e
+o
+?src/week_one/oopDataStructure/Task4/CustomDoublyLinkedList.java,4\5\450b6a850dcd5e94aa5f7c91a3caed6c92e747a2
+n
+>src/week_one/oopDataStructure/Task4/Task4DoublyLinkedList.java,c\4\c4812ab8eb49f06b08e645d1ff3086f6edf116a2
+]
+-src/week_one/oopDataStructure/Task4/Node.java,2\c\2c530acbb5a9e71fb271a369cc425d66abeabca7
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+b
+2src/week_one/stream_api/Task3/TheSmallestEven.java,7\9\79aa0485ebbded68f0ea6a05e9bcf0e8ccd7a72a
