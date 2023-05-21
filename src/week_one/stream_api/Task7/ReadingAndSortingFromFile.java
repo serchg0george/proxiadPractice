@@ -11,10 +11,8 @@ import java.util.stream.Stream;
 public class ReadingAndSortingFromFile {
 
     public static void main(String[] args) {
-
-        findLongestName();
-        findPersonByStreetNumber();
-
+        findLongestName(getDataFromFile());
+        findPersonByStreetNumber(getDataFromFile(), 25);
     }
 
 
@@ -30,82 +28,99 @@ public class ReadingAndSortingFromFile {
     }
 
 
-    private static void getNameFromFile() {
-        getDataFromFile();
+//    private static void getNameFromFile() {
+//        getDataFromFile();
+//
+//        String extractedFirstName = "";
+//        String extractedLastName = "";
+//
+//        for (String getData:
+//             getDataFromFile()) {
+//
+//        }
+//    }
 
-        String extractedFirstName = "";
-        String extractedLastName = "";
 
-        for (String getData:
-             getDataFromFile()) {
+    private static void findLongestName(List<String> data) {
 
-        }
+        String longestName = data.stream()
+                .map(line -> line.split(",")[0].trim())
+                .max(Comparator.comparingInt(name -> name.length()))
+                .orElse("");
+
+        System.out.println(longestName);
+
+
+//        getDataFromFile();
+//
+//        List<Integer> sumOfCharactersList = new ArrayList<>();
+//        String firstNameMax = "";
+//        String lastNameMax = "";
+
+//        for (String getData :
+//                getDataFromFile()) {
+//
+//            String[] parts = getData.split(",");
+//            String[] firstNameLastNameFromFile = Arrays.copyOfRange(parts, 0, 2);
+//
+//            String rawFirstName = firstNameLastNameFromFile[0].trim();
+//            String rawLastName = firstNameLastNameFromFile[1].trim();
+//
+//            String extractedFirstName = rawFirstName.substring(rawFirstName.indexOf("=") + 1);
+//            String extractedLastName = rawLastName.substring(rawLastName.indexOf("=") + 1);
+//
+//            int sumOfCharacters = extractedFirstName.length() + extractedLastName.length();
+//            sumOfCharactersList.add(sumOfCharacters);
+//
+//
+//            if (sumOfCharacters == Collections.max(sumOfCharactersList)) {
+//                firstNameMax = extractedFirstName;
+//                lastNameMax = extractedLastName;
+//            }
+//
+//        }
+//
+//        System.out.println(firstNameMax + " " + lastNameMax);
     }
 
+    private static void findPersonByStreetNumber(List<String> data, int streetNumber) {
 
-    private static void findLongestName() {
+        List<String> personByStreet = data.stream()
+                .filter(line -> line.contains("number=" + streetNumber))
+                .map(line -> line.split(",")[0].trim())
+                .collect(Collectors.toList());
 
-        getDataFromFile();
+        System.out.println(personByStreet);
 
-        List<Integer> sumOfCharactersList = new ArrayList<>();
-        String firstNameMax = "";
-        String lastNameMax = "";
-
-        for (String getData :
-                getDataFromFile()) {
-
-            String[] parts = getData.split(",");
-            String[] firstNameLastNameFromFile = Arrays.copyOfRange(parts, 0, 2);
-
-            String rawFirstName = firstNameLastNameFromFile[0].trim();
-            String rawLastName = firstNameLastNameFromFile[1].trim();
-
-            String extractedFirstName = rawFirstName.substring(rawFirstName.indexOf("=") + 1);
-            String extractedLastName = rawLastName.substring(rawLastName.indexOf("=") + 1);
-
-            int sumOfCharacters = extractedFirstName.length() + extractedLastName.length();
-            sumOfCharactersList.add(sumOfCharacters);
-
-
-            if (sumOfCharacters == Collections.max(sumOfCharactersList)) {
-                firstNameMax = extractedFirstName;
-                lastNameMax = extractedLastName;
-            }
-
-        }
-
-        System.out.println(firstNameMax + " " + lastNameMax);
+//        getDataFromFile();
+//
+//        String firstNameStreets = "";
+//        String lastNameStreets = "";
+//
+//        for (String getData :
+//                getDataFromFile()) {
+//
+//            String[] parts = getData.split(",");
+//            String[] firstNameLastNameFromFile = Arrays.copyOfRange(parts, 0, 2);
+//
+//            String rawFirstName = firstNameLastNameFromFile[0].trim();
+//            String rawLastName = firstNameLastNameFromFile[1].trim();
+//
+//            String extractedFirstName = rawFirstName.substring(rawFirstName.indexOf("=") + 1);
+//            String extractedLastName = rawLastName.substring(rawLastName.indexOf("=") + 1);
+//            String[] numberOfStreet = Arrays.copyOfRange(parts, 0, 6);
+//
+//            String rawNumberOfStreet = numberOfStreet[5].trim();
+//
+//            Integer extractedNumberOfStreet = Integer.parseInt(rawNumberOfStreet.substring(rawNumberOfStreet.indexOf("=") + 1));
+//
+//
+//            if (extractedNumberOfStreet.equals(25)) {
+//                firstNameStreets = extractedFirstName;
+//                lastNameStreets = extractedLastName;
+//                System.out.println("Lives on street with number 25: " + firstNameStreets + " " + lastNameStreets);
+//            }
+//        }
     }
 
-    private static void findPersonByStreetNumber() {
-        getDataFromFile();
-
-        String firstNameStreets = "";
-        String lastNameStreets = "";
-
-        for (String getData :
-                getDataFromFile()) {
-
-            String[] parts = getData.split(",");
-            String[] firstNameLastNameFromFile = Arrays.copyOfRange(parts, 0, 2);
-
-            String rawFirstName = firstNameLastNameFromFile[0].trim();
-            String rawLastName = firstNameLastNameFromFile[1].trim();
-
-            String extractedFirstName = rawFirstName.substring(rawFirstName.indexOf("=") + 1);
-            String extractedLastName = rawLastName.substring(rawLastName.indexOf("=") + 1);
-            String[] numberOfStreet = Arrays.copyOfRange(parts, 0, 6);
-
-            String rawNumberOfStreet = numberOfStreet[5].trim();
-
-            Integer extractedNumberOfStreet = Integer.parseInt(rawNumberOfStreet.substring(rawNumberOfStreet.indexOf("=") + 1));
-
-
-            if (extractedNumberOfStreet.equals(25)) {
-                firstNameStreets = extractedFirstName;
-                lastNameStreets = extractedLastName;
-                System.out.println("Lives on street with number 25: " + firstNameStreets + " " + lastNameStreets);
-            }
-        }
-    }
 }
