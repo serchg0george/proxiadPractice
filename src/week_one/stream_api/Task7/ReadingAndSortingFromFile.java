@@ -28,59 +28,59 @@ public class ReadingAndSortingFromFile {
     }
 
 
-//    private static void getNameFromFile() {
-//        getDataFromFile();
-//
-//        String extractedFirstName = "";
-//        String extractedLastName = "";
-//
-//        for (String getData:
-//             getDataFromFile()) {
-//
-//        }
-//    }
+/*    private static void getNameFromFile() {
+        getDataFromFile();
+
+        String extractedFirstName = "";
+        String extractedLastName = "";
+
+        for (String getData:
+             getDataFromFile()) {
+
+        }
+    }*/
 
 
     private static void findLongestName(List<String> data) {
 
         String longestName = data.stream()
                 .map(line -> line.split(",")[0].trim())
-                .max(Comparator.comparingInt(name -> name.length()))
+                .max(Comparator.comparingInt(String::length))
                 .orElse("");
 
         System.out.println(longestName);
 
 
-//        getDataFromFile();
-//
-//        List<Integer> sumOfCharactersList = new ArrayList<>();
-//        String firstNameMax = "";
-//        String lastNameMax = "";
+/*        getDataFromFile();
 
-//        for (String getData :
-//                getDataFromFile()) {
-//
-//            String[] parts = getData.split(",");
-//            String[] firstNameLastNameFromFile = Arrays.copyOfRange(parts, 0, 2);
-//
-//            String rawFirstName = firstNameLastNameFromFile[0].trim();
-//            String rawLastName = firstNameLastNameFromFile[1].trim();
-//
-//            String extractedFirstName = rawFirstName.substring(rawFirstName.indexOf("=") + 1);
-//            String extractedLastName = rawLastName.substring(rawLastName.indexOf("=") + 1);
-//
-//            int sumOfCharacters = extractedFirstName.length() + extractedLastName.length();
-//            sumOfCharactersList.add(sumOfCharacters);
-//
-//
-//            if (sumOfCharacters == Collections.max(sumOfCharactersList)) {
-//                firstNameMax = extractedFirstName;
-//                lastNameMax = extractedLastName;
-//            }
-//
-//        }
-//
-//        System.out.println(firstNameMax + " " + lastNameMax);
+        List<Integer> sumOfCharactersList = new ArrayList<>();
+        String firstNameMax = "";
+        String lastNameMax = "";
+
+        for (String getData :
+                getDataFromFile()) {
+
+            String[] parts = getData.split(",");
+            String[] firstNameLastNameFromFile = Arrays.copyOfRange(parts, 0, 2);
+
+            String rawFirstName = firstNameLastNameFromFile[0].trim();
+            String rawLastName = firstNameLastNameFromFile[1].trim();
+
+            String extractedFirstName = rawFirstName.substring(rawFirstName.indexOf("=") + 1);
+            String extractedLastName = rawLastName.substring(rawLastName.indexOf("=") + 1);
+
+            int sumOfCharacters = extractedFirstName.length() + extractedLastName.length();
+            sumOfCharactersList.add(sumOfCharacters);
+
+
+            if (sumOfCharacters == Collections.max(sumOfCharactersList)) {
+                firstNameMax = extractedFirstName;
+                lastNameMax = extractedLastName;
+            }
+
+        }
+
+        System.out.println(firstNameMax + " " + lastNameMax);*/
     }
 
     private static void findPersonByStreetNumber(List<String> data, int streetNumber) {
@@ -92,35 +92,35 @@ public class ReadingAndSortingFromFile {
 
         System.out.println(personByStreet);
 
-//        getDataFromFile();
-//
-//        String firstNameStreets = "";
-//        String lastNameStreets = "";
-//
-//        for (String getData :
-//                getDataFromFile()) {
-//
-//            String[] parts = getData.split(",");
-//            String[] firstNameLastNameFromFile = Arrays.copyOfRange(parts, 0, 2);
-//
-//            String rawFirstName = firstNameLastNameFromFile[0].trim();
-//            String rawLastName = firstNameLastNameFromFile[1].trim();
-//
-//            String extractedFirstName = rawFirstName.substring(rawFirstName.indexOf("=") + 1);
-//            String extractedLastName = rawLastName.substring(rawLastName.indexOf("=") + 1);
-//            String[] numberOfStreet = Arrays.copyOfRange(parts, 0, 6);
-//
-//            String rawNumberOfStreet = numberOfStreet[5].trim();
-//
-//            Integer extractedNumberOfStreet = Integer.parseInt(rawNumberOfStreet.substring(rawNumberOfStreet.indexOf("=") + 1));
-//
-//
-//            if (extractedNumberOfStreet.equals(25)) {
-//                firstNameStreets = extractedFirstName;
-//                lastNameStreets = extractedLastName;
-//                System.out.println("Lives on street with number 25: " + firstNameStreets + " " + lastNameStreets);
-//            }
-//        }
+/*        getDataFromFile();
+
+        String firstNameStreets = "";
+        String lastNameStreets = "";
+
+        for (String getData :
+                getDataFromFile()) {
+
+            String[] parts = getData.split(",");
+            String[] firstNameLastNameFromFile = Arrays.copyOfRange(parts, 0, 2);
+
+            String rawFirstName = firstNameLastNameFromFile[0].trim();
+            String rawLastName = firstNameLastNameFromFile[1].trim();
+
+            String extractedFirstName = rawFirstName.substring(rawFirstName.indexOf("=") + 1);
+            String extractedLastName = rawLastName.substring(rawLastName.indexOf("=") + 1);
+            String[] numberOfStreet = Arrays.copyOfRange(parts, 0, 6);
+
+            String rawNumberOfStreet = numberOfStreet[5].trim();
+
+            Integer extractedNumberOfStreet = Integer.parseInt(rawNumberOfStreet.substring(rawNumberOfStreet.indexOf("=") + 1));
+
+
+            if (extractedNumberOfStreet.equals(25)) {
+                firstNameStreets = extractedFirstName;
+                lastNameStreets = extractedLastName;
+                System.out.println("Lives on street with number 25: " + firstNameStreets + " " + lastNameStreets);
+            }
+        }*/
     }
 
 }
