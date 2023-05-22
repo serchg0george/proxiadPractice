@@ -90,7 +90,15 @@ Q.idea/sonarlint/securityhotspotstore/4/a/4aa52a3e5acf0cd5c3a4d044facd2025ad92ee
 Q.idea/sonarlint/securityhotspotstore/d/a/da3751662f7d73b4d74beb528a8b9f65ae3f57ed,a\6\a6cd7d8c9f2a06e037f9e0ae6568cfa43b29a785
 Å
 Q.idea/sonarlint/securityhotspotstore/1/e/1ea3cccd0dbaaccb3f9187a7194298edca43f62c,c\d\cdbe927507c9d170a4675f2306916747151a3a80
-g
-7src/week_one/stream_api/Task5/PopulationByDistrict.java,6\5\65642e038924d38aa84d1fea44407d44eb380789
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+f
+6src/week_one/stream_api/Task8/PrimeNumbersInRange.java,d\4\d466a1f6e692ad656b62c4e37d0358e0feb3b6c7
 m
 =src/week_one/stream_api/Task6/PrintingThreeMostUsedWords.java,3\4\34543dbc053988a3a4fb75a52dd155c7f9ddcf99
+g
+7src/week_one/stream_api/Task5/PopulationByDistrict.java,6\5\65642e038924d38aa84d1fea44407d44eb380789
+l
+<src/week_one/stream_api/Task7/ReadingAndSortingFromFile.java,3\6\36fd72a3a4237d21a3a209b5fccd346aad8783eb

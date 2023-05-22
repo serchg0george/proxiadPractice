@@ -44,7 +44,7 @@ public class ReadingAndSortingFromFile {
     private static void findLongestName(List<String> data) {
 
         String longestName = data.stream()
-                .map(line -> line.split(",")[0].trim())
+                .map(line -> line.split(",")[0].trim() + " " + line.split(",")[1].trim())
                 .max(Comparator.comparingInt(String::length))
                 .orElse("");
 
